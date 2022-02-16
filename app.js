@@ -4,14 +4,6 @@ const yargs = require('yargs')
 const fs = require('fs')
 const { title } = require('process')
 
-// customizing yargs version
-yargs.version('1.1.0')
-
-
-// const command = process.argv[2]
-// console.log(process.argv)
-// console.log(yargs.argv)
-
 
 // add, remove, read, list 
 // Create command to ADD notes
